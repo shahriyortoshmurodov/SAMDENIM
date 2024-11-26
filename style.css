@@ -72,21 +72,21 @@ button:hover {
 }
 
 .header {
-  display: grid;
+  display: block;
   justify-content: space-between;
   align-items: center;
-  width: 600px;
+  width: 200px;
   gap: 300px;
   margin: 0 auto;
   margin-bottom: 20px;
 }
 
 .search-container {
-  display: grid;
+  display: block;
   align-items: center;
   justify-content: center;
   gap: 10px;
-  width: 700px;
+  width: 300px;
   margin-bottom: 20px;
   margin: 0 auto;
 }
