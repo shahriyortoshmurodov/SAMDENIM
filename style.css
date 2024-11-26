@@ -146,3 +146,19 @@ button:hover {
   margin-right: 10px;
 }
 
+@media (max-width: 768px) {
+  .product-card {
+      width: 100%;
+      font-size: 14px;
+  }}
+
+@media (min-width: 769px) {
+  .product-card {
+      width: 25%;
+      font-size: 16px;
+  }
+}
+.container {
+  width: 90%; /* Ekran kengligining 90% */
+  max-width: 1200px; /* Katta ekranda chegaralash */
+}
