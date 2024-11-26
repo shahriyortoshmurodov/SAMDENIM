@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SAMDENIM</title>
+  <link class=""  rel="website icon" type="jpg" href="logo.png">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Login Section -->
+  <div id="login-container">
+    <div class="form-container">
+      <h2>Login</h2>
+      <form id="login-form">
+        <label for="username">Username</label>
+        <input type="text" id="username" placeholder="Enter your username" required>
+        <label for="password">Password</label>
+        <input type="password" id="password" placeholder="Enter your password" required>
+        <button type="submit" class="btn">Login</button>
+      </form>
+    </div>
+  </div>
+
+  <!-- Dashboard Section -->
+  <div id="dashboard" style="display: none;">
+    <div class="header">
+      <h1>SAMDENIM   </h1>
+      <button id="logout-btn" class="btn">Logout 🚪</button>
+    </div>
+    <div id="add-product" class="form-containeru" style="display: none;">
+      <h2>Add Product</h2>
+      <input type="text" id="product-code" placeholder="Product Code">
+      <input type="text" id="product-sizes" placeholder="Sizes (e.g., 29-30-31)">
+      <input type="number" id="product-quantity" placeholder="Pachkada">
+      <input type="number" id="product-price" placeholder="Price">
+      <textarea id="product-info" placeholder="Product Information"></textarea>
+      <input type="file" id="product-image" capture="environment" accept="image/*">
+      <button id="add-btn" class="btn">Add Product</button>
+    </div>
+    <div class="search-container">
+      <input type="text" id="search-code" placeholder="Search by Product Code ">
+      <button id="search-btn" class="btn">Search 🔎</button>
+    </div>
+    <div id="product-display" class="product-display"></div>
+  </div>
+  
+
+  <script src="main.js"></script>
+</body>
+</html>
